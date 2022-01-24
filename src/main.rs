@@ -10,7 +10,7 @@ fn main() {
     println!("Guess the number!");
 
     loop {
-        println!("Please type your guess.");
+        println!("Please type your guess. ('q' to quit)");
         let mut guess = String::new();
         io::stdin()
             .read_line(&mut guess)
