@@ -6,11 +6,11 @@ fn main() {
 
     let secret_number = rand::thread_rng().gen_range(1..101);
 
-    println!("Secret number: {}",secret_number);
+    //println!("Secret number: {}",secret_number);
     println!("Guess the number!");
 
     loop {
-        println!("Please type your guess. ('q' to quit)");
+        println!("Please type your guess.");
         let mut guess = String::new();
         io::stdin()
             .read_line(&mut guess)
